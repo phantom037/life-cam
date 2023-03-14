@@ -4,12 +4,12 @@ import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 
 const images = [
     "https://acrosshorizon.github.io/gallery/2023/IMG_8298.jpeg",
-    "https://acrosshorizon.github.io/gallery/2023/IMG_8421.jpeg",
-    "https://acrosshorizon.github.io/gallery/2023/IMG_8430.jpeg",
+    "https://acrosshorizon.github.io/gallery/2023/IMG_8421.JPG",
+    "https://acrosshorizon.github.io/gallery/2023/IMG_8430.JPG",
     "https://acrosshorizon.github.io/gallery/us/IMG_8072.jpeg",
     "https://acrosshorizon.github.io/gallery/us/IMG_8074.jpeg",
-    "https://acrosshorizon.github.io/gallery/2023/IMG_8434.jpeg",
-    "https://acrosshorizon.github.io/gallery/2023/IMG_8438.jpeg",
+    "https://acrosshorizon.github.io/gallery/2023/IMG_8434.JPG",
+    "https://acrosshorizon.github.io/gallery/2023/IMG_8438.JPG",
     "https://acrosshorizon.github.io/gallery/2023/IMG_8529.jpeg",
     "https://acrosshorizon.github.io/gallery/2023/IMG_8686.jpeg",
     "https://acrosshorizon.github.io/gallery/2023/IMG_E08DF1E02E9D-1.jpeg",
@@ -19,15 +19,15 @@ const images = [
     "https://acrosshorizon.github.io/gallery/2022/IMG_7676.jpeg",
     "https://acrosshorizon.github.io/gallery/2022/IMG_7686.jpeg",
     "https://acrosshorizon.github.io/gallery/2022/IMG_7784.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7931.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7932.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7934.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7935.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7940.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7968.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_7971.jpeg",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7931.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7932.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7934.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7935.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7940.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7968.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_7971.JPG",
     "https://acrosshorizon.github.io/gallery/2022/IMG_8048.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_8120.jpeg",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_8120.PNG",
     "https://acrosshorizon.github.io/gallery/2022/FullSizeRender (1).jpeg",
     "https://acrosshorizon.github.io/gallery/2022/FullSizeRender (2).jpeg",
     "https://acrosshorizon.github.io/gallery/2022/FullSizeRender (3).jpeg",
@@ -50,14 +50,14 @@ const images = [
     "https://acrosshorizon.github.io/gallery/2022/Melbourne_ACMI_2022.jpeg",
     "https://acrosshorizon.github.io/gallery/2022/Monash_2022.jpeg",
     "https://acrosshorizon.github.io/gallery/2022/IMG_4429.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4566.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4568.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4586.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4591.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4712.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4756.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4812.jpeg",
-    "https://acrosshorizon.github.io/gallery/2022/IMG_4815.jpeg",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4566.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4568.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4586.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4591.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4712.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4756.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4812.JPG",
+    "https://acrosshorizon.github.io/gallery/2022/IMG_4815.JPG",
     "https://acrosshorizon.github.io/gallery/art/IMG_8010.JPG",
     "https://acrosshorizon.github.io/gallery/art/IMG_8014.JPG",
     "https://acrosshorizon.github.io/gallery/art/IMG_8015.JPG",
@@ -166,6 +166,7 @@ const images = [
 
     return (
         <>
+
             {data.img && 
                 <div style={{
                     width: '100%',
@@ -184,6 +185,8 @@ const images = [
 
             }
             <div style={{padding: '10px'}}>
+            <h1 style ={{textAlign: 'center'}}>Life Cam</h1>
+        <h2 style ={{textAlign: 'center'}}>Where I capture my memories</h2>
             <ResponsiveMasonry
                 columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}
             >
